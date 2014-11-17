@@ -4,6 +4,8 @@ RS232
 2. sudo gtkterm
 3. 設定 正確ㄉ的 port  /dev/ttyUSB0    , Rate 115200
 
+如果沒畫面或是無法啟動按一下板子的KEYON
+
 設定好開電源 , 按板子上 reset 鍵 , 按住鍵盤空白鍵會進入EmbedSky USB download mode
 
 
