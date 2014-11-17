@@ -3,6 +3,7 @@ RS232
 1. sudo apt-get install gtkterm
 2. sudo gtkterm
 3. 設定 正確ㄉ的 port  /dev/ttyUSB0    , Rate 115200
+4. USB to RS232 線接在板子 COM1 
 
 如果沒畫面或是無法啟動按一下板子的KEYON
 
