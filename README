@@ -1,3 +1,10 @@
+├── 4.4.6  [toolchain]
+├── Kernel_3.0.8_TQ210_for_Android_v1.4
+├── mkimage
+├── TQ210_Android_4.0.4_V1.4
+└── TQBoardDNW for linux
+
+
 燒錄環境設定
 RS232
 1. sudo apt-get install gtkterm
@@ -101,18 +108,9 @@ make: *** [out/target/product/tq210/ramdisk.img] Error 127
 make: *** Deleting file `out/target/product/tq210/ramdisk.img'
 make: *** Waiting for unfinished jobs....
 
-
-
 sudo apt-get install uboot-mkimage
 
-
-
 製作檔案Image
-
 cd out/target/product/tq210
-
 mkyaffs2image_for_TQ210 rootfs_dir/ root_android4.bin
-
-
-
 
